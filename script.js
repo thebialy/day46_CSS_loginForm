@@ -1,4 +1,4 @@
-const switchers = [...document.querySelectorAll('.switcher')]
+const switchers = [...document.querySelectorAll('.flip')]
 
 switchers.forEach(item => {
 	item.addEventListener('click', function() {
